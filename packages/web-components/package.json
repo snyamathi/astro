@@ -12,7 +12,10 @@
       "import": "./dist/index.cjs.js",
       "types": "./dist/types/index.d.ts"
     },
-    "./loader": "./loader/index.js",
+    "./loader": {
+      "import": "./loader/index.js",
+      "types": "./loader/index.d.ts"
+    },
     "./dist/astro-web-components/astro-web-components.css": "./dist/astro-web-components/astro-web-components.css",
     "./components": "./dist/types/components.d.ts",
     "./components/*": "./dist/components/*"
